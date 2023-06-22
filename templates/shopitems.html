@@ -1,0 +1,15 @@
+<div class ="border-bottom row" style="margin-bottom :16px;padding-bottom:8px ">
+  <div class="col-9">
+  <h4 style="color: rgb(80,80,80)">
+    {{item['name']}}
+  </h4>
+  {% if 'price' in item %}
+  <div>
+    <b>Price : </b>{{item['price']}}
+  </div>
+  {%endif%}
+  </div>
+    <div class="col-3" style="margin-top:3px">
+    <button type = "button" class="btn btn-outline-primary">Add To Cart</button>
+    </div>
+  </div>
